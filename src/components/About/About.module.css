@@ -1,0 +1,10 @@
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    color: #ffff;
+}
+
+img{
+    border-radius: 20px;
+}
