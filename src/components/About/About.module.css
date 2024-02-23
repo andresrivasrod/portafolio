@@ -1,10 +1,38 @@
 .about{
     display: flex;
     justify-content: space-evenly;
-    margin: 50px;
-    color: #ffff;
+    margin: 80px;
+    color: #000000;
 }
 
 img{
     border-radius: 20px;
+    border-color: #000000;
+    border: 3px solid;
+}
+
+.header{
+    color:#11ae20;
+    font-size: 40px;
+}
+
+.description{
+    font-size: 20px;;
+}
+
+.cvContainer{
+    padding: 30px;
+    align-items: center;
+}
+
+.cv{
+    text-decoration: none;
+    color:#ffff;
+    font-size:15px;
+    background-color: #072da8;
+    margin: 100px;
+    border-radius: 20px;
+    width: 110px;
+    font-weight: bold;
+    padding: 15px;
 }
