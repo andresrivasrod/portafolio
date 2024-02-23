@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
-import App from './App.jsx'
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 import './index.css'
 import Navbar from "./components/Navbar/Navbar.jsx";
 import About from './components/About/About'
@@ -12,8 +11,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Navbar />
-      <App />
-    </BrowserRouter>
-   
-  </React.StrictMode>,
-)
+      <About />
+      <Projects />
+      <Contact />
+    </BrowserRouter>  
+  </React.StrictMode>
+);

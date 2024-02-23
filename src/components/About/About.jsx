@@ -7,7 +7,7 @@ function About() {
   const cv = 'src/assets/English CV Andres Rivas.pdf';
   
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
       <div>
         <h1 className={styles.header}>I am Andres Rivas</h1>
         <div>

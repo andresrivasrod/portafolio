@@ -1,0 +1,31 @@
+.contact{
+    display: block;
+    justify-content: space-between;
+    background: #181b20;
+    padding: 24px 120px;
+    color: #13d826;
+    margin: 0px; 
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.logo{
+    border: 0;
+    outline: none;
+    width: 50px;
+    height: 50px;
+}
+

@@ -20,6 +20,11 @@
     align-items: center;
     justify-content: center;
   }
+
+  .image{
+    border: 0;
+    outline: none;
+  }
   
   button {
     border-radius: 200px;
