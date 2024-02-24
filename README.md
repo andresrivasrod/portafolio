@@ -1,1 +1,1 @@
-This is my portafolio so I can show some of the skills I have as a programmer and a web dev.
+This is my portfolio so I can show some of the skills I have as a programmer and a web developer.

@@ -21,7 +21,7 @@ function Projects() {
         <div className={styles.slide}>
           <button className={styles.prev} onClick={prevSlide}>{`<`}</button>
           <a href={data[currentSlide].link} target="_blank" rel="noopener noreferrer">
-            <img width={600} src={data[currentSlide].imgUrl} alt={`Project ${data[currentSlide].id}`} className={styles.image} />
+            <img width={600} height={300} src={data[currentSlide].imgUrl} alt={`Project ${data[currentSlide].id}`} className={styles.image} />
           </a>
           <button className={styles.next} onClick={nextSlide}><span>{`>`}</span></button>
         </div>
