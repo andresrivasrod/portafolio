@@ -2,8 +2,8 @@ import React from 'react'
 import styles from './Contact.module.css'
 
 function Contact() {
-  const glogo = "src/assets/Github Logo.png"
-  const linkedin = "src/assets/Linkedin Logo.png"
+  const glogo = "public/assets/Github Logo.png"
+  const linkedin = "public/assets/Linkedin Logo.png"
   return (
     <div className={styles.contact} id="contact">
       <h1>Contact me:</h1>

@@ -3,8 +3,8 @@ import styles from './About.module.css'
 import React from 'react'
 
 function About() {
-  const imagen =  "src/assets/unimet.jpeg";
-  const cv = 'src/assets/English CV Andres Rivas.pdf';
+  const imagen =  "public/assets/photo Andres.png";
+  const cv = 'public/assets/English CV Andres Rivas.pdf';
   
   return (
     <div className={styles.about} id="about">
@@ -19,7 +19,7 @@ function About() {
           <a href={cv} download className={styles.cv}>{' '} Download my CV</a>
         </div>
       </div>
-      <img src={imagen} width={600}/>
+      <img src={imagen} width={300}/>
     </div>
   )
 }

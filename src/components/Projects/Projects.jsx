@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { data } from '../../assets/data';
+import { data } from '../../../public/assets/data';
 import styles from './Projects.module.css'; 
 
 function Projects() {
