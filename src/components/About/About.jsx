@@ -6,7 +6,7 @@ import styles from './About.module.css';
 function About() {
   const [imagen, setImagen] = useState('');
   const [cv, setCv] = useState('');
-  const photo = "../../public//assets/photo Andres.svg"
+  const photo = "assets/photo Andres.svg"
 
   useEffect(() => {
     const storageRefImagen = ref(storage, 'photo Andres.png');
