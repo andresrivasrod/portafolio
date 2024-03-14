@@ -4,29 +4,9 @@ import { storage } from '../../firebase/config';
 import styles from './About.module.css';
 
 function About() {
-  const [imagen, setImagen] = useState('');
-  const [cv, setCv] = useState('');
-  const photo = "assets/photo Andres.svg"
 
-  useEffect(() => {
-    const storageRefImagen = ref(storage, 'photo Andres.png');
-    getDownloadURL(storageRefImagen)
-      .then((url) => {
-        setImagen(url);
-      })
-      .catch((error) => {
-        console.error('Error al obtener la URL de la imagen', error);
-      });
-
-    const storageRefCv = ref(storage, 'English CV Andres Rivas.pdf');
-    getDownloadURL(storageRefCv)
-      .then((url) => {
-        setCv(url);
-      })
-      .catch((error) => {
-        console.error('Error al obtener la URL del CV', error);
-      });
-  }, []);
+  const cv = "assets/English CV Andres Rivas.pdf";
+  const photo = "assets/photo Andres.png"
 
   return (
     <div className={styles.about} id="about">
