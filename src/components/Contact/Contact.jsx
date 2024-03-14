@@ -4,28 +4,8 @@ import { getStorage, ref, getDownloadURL } from 'firebase/storage';
 import { storage } from '../../firebase/config';
 
 function Contact() {
-  const [githubLogo, setGithubLogo] = useState('');
-  const [linkedinLogo, setLinkedinLogo] = useState('');
-
-  useEffect(() => {
-    const storageRef = ref(storage, 'Github Logo.png');
-    getDownloadURL(storageRef)
-      .then((url) => {
-        setGithubLogo(url);
-      })
-      .catch((error) => {
-        console.error('Error al obtener la URL del logo de Github', error);
-      });
-
-    const linkedinRef = ref(storage, 'Linkedin Logo.png');
-    getDownloadURL(linkedinRef)
-      .then((url) => {
-        setLinkedinLogo(url);
-      })
-      .catch((error) => {
-        console.error('Error al obtener la URL del logo de Linkedin', error);
-      });
-  }, []);
+  const githubLogo= "assets/Github Logo.png";
+  const linkedinLogo = "assets/Linkedin Logo.png";
 
   return (
     <div className={styles.contact} id="contact">
