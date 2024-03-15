@@ -1,30 +1,54 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     background: #181b20;
     padding: 24px 120px;
     color: #13d826;
-    margin: 0px; 
-}
-
-.navbar .menuList {
+    margin: 0px;
+  }
+  
+  .navbar .menuList {
     display: flex;
     align-items: center;
     list-style: none;
     background: #181b20;
   }
-
-.logo{
+  
+  .logo {
     font-size: 40px;
-}
-
-.link{
+  }
+  
+  .link {
     text-decoration: none;
-    color:#13d826;
+    color: #13d826;
     margin: 10px;
     font-size: 20px;
-}
-
-.link:hover{
+  }
+  
+  .link:hover {
     text-decoration: underline;
-}
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 24px 20px; /* Ajuste de relleno para dispositivos móviles */
+      flex-direction: column; /* Cambiar a dirección de columna en dispositivos móviles */
+      align-items: center; /* Centrar los elementos en dispositivos móviles */
+      text-align: center; /* Alinear el texto al centro en dispositivos móviles */
+    }
+  
+    .logo {
+      margin-bottom: 20px; /* Ajuste de margen inferior para el logo en dispositivos móviles */
+    }
+  
+    .menuList {
+      margin-top: 20px; /* Ajuste de margen superior para la lista de menú en dispositivos móviles */
+      justify-content: center; /* Centrar los elementos de la lista de menú en dispositivos móviles */
+    }
+  
+    .link {
+      margin: 5px; /* Ajuste de margen para los enlaces en dispositivos móviles */
+      font-size: 18px; /* Reducir el tamaño de fuente de los enlaces en dispositivos móviles */
+    }
+  }
+  

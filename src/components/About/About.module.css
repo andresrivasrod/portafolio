@@ -1,38 +1,66 @@
-.about{
+.about {
     display: flex;
     justify-content: space-evenly;
     margin: 80px;
     color: #000000;
-}
-
-img{
+  }
+  
+  img {
     border-radius: 20px;
     border-color: #000000;
     border: 3px solid;
-}
-
-.header{
-    color:#11ae20;
+  }
+  
+  .header {
+    color: #11ae20;
     font-size: 40px;
-}
-
-.description{
-    font-size: 20px;;
-}
-
-.cvContainer{
+  }
+  
+  .description {
+    font-size: 20px;
+  }
+  
+  .cvContainer {
     padding: 30px;
     align-items: center;
-}
-
-.cv{
+  }
+  
+  .cv {
     text-decoration: none;
-    color:#ffff;
-    font-size:15px;
+    color: #ffff;
+    font-size: 15px;
     background-color: #072da8;
     margin: 100px;
     border-radius: 20px;
     width: 110px;
     font-weight: bold;
     padding: 15px;
-}
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      flex-direction: column; /* Cambiar a dirección de columna en dispositivos móviles */
+      align-items: center; /* Centrar los elementos en dispositivos móviles */
+      text-align: center; /* Alinear el texto al centro en dispositivos móviles */
+      margin: 20px; /* Ajuste de margen para dispositivos móviles */
+    }
+  
+    img {
+      width: 80%; /* Ajustar el ancho de la imagen al 80% en dispositivos móviles */
+      margin-top: 20px; /* Ajuste de margen superior para la imagen en dispositivos móviles */
+      margin-bottom: 20px; /* Ajuste de margen inferior para la imagen en dispositivos móviles */
+    }
+  
+    .cvContainer {
+      padding: 15px; /* Reducir el padding del contenedor del CV en dispositivos móviles */
+      margin-top: 20px; /* Ajuste de margen superior para el contenedor del CV en dispositivos móviles */
+      margin-bottom: 20px; /* Ajuste de margen inferior para el contenedor del CV en dispositivos móviles */
+    }
+  
+    .cv {
+      width: 150px; /* Ajustar el ancho del botón de descarga en dispositivos móviles */
+      margin: 10px; /* Ajuste de margen para el botón de descarga en dispositivos móviles */
+      padding: 10px; /* Reducir el padding del botón de descarga en dispositivos móviles */
+    }
+  }
+  

@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { getStorage, ref, getDownloadURL } from 'firebase/storage';
-import { storage } from '../../firebase/config';
 import styles from './About.module.css';
 
 function About() {

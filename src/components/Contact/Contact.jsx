@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Contact.module.css';
-import { getStorage, ref, getDownloadURL } from 'firebase/storage';
-import { storage } from '../../firebase/config';
 
 function Contact() {
   const githubLogo= "assets/Github Logo.png";

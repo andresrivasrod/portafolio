@@ -1,31 +1,58 @@
-.contact{
+.contact {
     display: block;
     justify-content: space-between;
     background: #181b20;
     padding: 24px 120px;
     color: #13d826;
-    margin: 0px; 
-}
-
-.container{
+    margin: 0px;
+  }
+  
+  .container {
     display: flex;
     justify-content: space-between;
-}
-
-.links{
+  }
+  
+  .links {
     display: flex;
     justify-content: space-evenly;
-}
-
-.link{
+  }
+  
+  .link {
     text-decoration: none;
     margin-right: 10px;
-}
-
-.logo{
+  }
+  
+  .logo {
     border: 0;
     outline: none;
     width: 50px;
     height: 50px;
-}
-
+  }
+  
+  @media (max-width: 768px) {
+    .contact {
+      padding: 24px 20px; /* Ajuste de relleno para dispositivos móviles */
+      text-align: center; /* Alinear el texto al centro en dispositivos móviles */
+    }
+  
+    .container {
+      flex-direction: column; /* Cambiar a dirección de columna en dispositivos móviles */
+      align-items: center; /* Centrar los elementos en dispositivos móviles */
+    }
+  
+    .links {
+      margin-top: 20px; /* Ajuste de margen superior para los enlaces en dispositivos móviles */
+      justify-content: center; /* Centrar los enlaces en dispositivos móviles */
+    }
+  
+    .link {
+      margin-right: 0; /* Eliminar el margen derecho de los enlaces en dispositivos móviles */
+      margin-bottom: 10px; /* Ajuste de margen inferior para los enlaces en dispositivos móviles */
+    }
+  
+    .logo {
+      width: 40px; /* Reducir el ancho de los logotipos en dispositivos móviles */
+      height: 40px; /* Reducir la altura de los logotipos en dispositivos móviles */
+    }
+  }
+  

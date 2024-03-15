@@ -1,47 +1,62 @@
 .projects {
-    text-align: center;
-    color: #11ae20;
-    margin: 80px;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: beige;
-  }
-  
-  .carousel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-  }
-  
-  .slide {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  text-align: center;
+  color: #11ae20;
+  margin: 80px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: beige;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  border: 0;
+  outline: none;
+}
+
+button {
+  border-radius: 200px;
+  background-color: #11ae20;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.prev {
+  left: calc(50% - 90px);
+}
+
+.next {
+  right: calc(50% - 90px);
+}
+
+@media (max-width: 768px) {
+  .projects {
+    margin: 20px; /* Ajuste de margen para dispositivos móviles */
+    padding: 10px; /* Ajuste de relleno para dispositivos móviles */
+    border-radius: 10px; /* Reducir el radio de borde en dispositivos móviles */
+    background-color: beige; /* Mantener el color de fondo en dispositivos móviles */
   }
 
-  .image{
-    border: 0;
-    outline: none;
-  }
-  
-  button {
-    border-radius: 200px;
-    background-color: #11ae20;
-    color: #fff;
-    border: none;
-    padding: 15px;
-    font-weight: bold;
-  }
-  
-  .prev {
-    left: calc(50% - 90px); 
-  }
-  
+  .prev,
   .next {
-    right: calc(50% - 90px); 
+    left: calc(50% - 70px); /* Ajuste de posición para los botones en dispositivos móviles */
+    right: calc(50% - 70px); /* Ajuste de posición para los botones en dispositivos móviles */
+    padding: 10px; /* Ajuste de relleno para los botones en dispositivos móviles */
+    border-radius: 15px; /* Reducir el radio de borde de los botones en dispositivos móviles */
+    font-size: 12px; /* Reducir el tamaño de fuente de los botones en dispositivos móviles */
   }
-
-  
-  
+}
