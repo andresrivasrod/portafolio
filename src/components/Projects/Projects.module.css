@@ -59,4 +59,11 @@ button {
     border-radius: 15px; /* Reducir el radio de borde de los botones en dispositivos móviles */
     font-size: 12px; /* Reducir el tamaño de fuente de los botones en dispositivos móviles */
   }
+
+  .image {
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen al contenedor en dispositivos móviles */
+    height: auto; /* Permitir que la altura se ajuste automáticamente en dispositivos móviles */
+    margin-top: 10px; /* Ajuste de margen superior para la imagen en dispositivos móviles */
+    margin-bottom: 10px; /* Ajuste de margen inferior para la imagen en dispositivos móviles */
+  }
 }
