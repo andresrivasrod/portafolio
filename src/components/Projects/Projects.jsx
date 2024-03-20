@@ -18,6 +18,7 @@ function Projects() {
       <h1>Projects</h1>
       <div className={styles.carrousel}>
         <h2>{data[currentSlide].name}</h2>
+        <p className={styles.description}>{data[currentSlide].description}</p>
         <div className={styles.slide}>
           <button className={styles.prev} onClick={prevSlide}>{`<`}</button>
           <a href={data[currentSlide].link} target="_blank" rel="noopener noreferrer">
