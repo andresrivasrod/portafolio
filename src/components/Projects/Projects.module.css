@@ -40,6 +40,11 @@ button {
   font-weight: bold;
 }
 
+button:hover{
+  background-color: #fff;
+  color: #11ae20;
+}
+
 .prev {
   left: calc(50% - 90px);
 }
